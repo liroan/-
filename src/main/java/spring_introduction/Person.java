@@ -11,7 +11,7 @@ public class Person {
     @Qualifier("dog")
     private  Pet pet;
     // @Value("Larikov")
-    @Value("${person.surname}")
+    //@Value("${person.surname}")
     private String surname;
 
 
